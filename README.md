@@ -1,7 +1,7 @@
 Install necessary dependencies:
 
 First install scoop:
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser \n
 irm get.scoop.sh | iex
 
 Then use scoop to install dependencies:
