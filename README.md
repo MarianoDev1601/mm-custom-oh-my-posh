@@ -32,4 +32,4 @@ Set-PSReadLineOption -PredictionSource History <br />
 Set-PSReadLineOption -PredictionViewStyle ListView <br />
 Set-PSReadLineOption -EditMode Windows <br />
 
-oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/mm-custom.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config "C:\Users\YOUR_USER\scoop\apps\oh-my-posh\YOUR_CURRENT_VERSION\themes\mm-custom.omp.json" | Invoke-Expression
