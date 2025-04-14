@@ -2,7 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
+      "type": "prompt",
       "alignment": "left",
+      "newline": false,
       "segments": [
         {
           "background": "#bf1c68",
@@ -30,7 +32,7 @@
           "type": "path"
         },
         {
-          "background": "#fffb38",
+          "background": "#d0c202",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#18b7cc{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ff4500{{ end }}",
@@ -164,8 +166,7 @@
           "trailing_diamond": "\ue0b4",
           "type": "status"
         }
-      ],
-      "type": "prompt"
+      ]
     },
     {
       "segments": [
